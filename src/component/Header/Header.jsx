@@ -27,6 +27,9 @@ const Header = () => {
                             <Link smooth to="#projects">Projects</Link>
                         </li>
                         <li>
+                            <a href={`${process.env.PUBLIC_URL}/Joban_Thind_Resume.pdf`}  target="_blank" rel="noopener noreferrer">Resume</a>
+                        </li>
+                        <li>
                             <Link smooth to="#contact">Contact Me</Link>
                         </li>
                     </ul>
